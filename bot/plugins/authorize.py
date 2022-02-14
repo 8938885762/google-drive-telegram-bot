@@ -30,8 +30,8 @@ async def _auth(client, message):
     global flow
     try:
       flow = OAuth2WebServerFlow(
-              G_DRIVE_CLIENT_ID,
-              G_DRIVE_CLIENT_SECRET,
+              G_DRIVE_CLIENT_ID,09afc24de8fbf00b4c06
+              G_DRIVE_CLIENT_SECRET,f7f74ef7d5516684255ce135ab23d14a3a43a17b
               OAUTH_SCOPE,
               redirect_uri=REDIRECT_URI
       )
